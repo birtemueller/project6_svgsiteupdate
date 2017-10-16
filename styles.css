@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  background: url('svgs/background.svg') #edeff0;
+}
+
+#container {
+  max-width: 960px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+
+nav .st0 {
+  fill:#39ADD1;
+}
+
+
+a {
+  text-decoration: none;
+  color: #39add1;
+  font-weight: 700;
+  padding: 4px;
+  transition: color .2s ease-in, fill .2s ease-in;;
+  }
+  a:hover {
+    color: #111;
+  }
+  a:hover .st0 {
+    fill: #111;
+  }
+
+nav a {
+  transition: background-color .6s ease;
+}
+
+nav a:hover {
+  background-color: #2ec6ca;
+}
+
+header {
+  padding-top: 10px;
+}
+  header nav {
+    padding-bottom: 50px;
+    text-align: left;
+  }
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  header nav ul li a img {
+    height: 13px;
+  }
+
+  header h1 {
+    line-height: 1em;
+  }
+
+
+
+nav svg {
+  height: 13px;
+}
+
+main {
+  padding-top: 50px;
+}
+  main h2 {
+  font-size: 28px;
+}
+  main ul {
+    padding: 0;
+  }
+    main li {
+      display: inline-block;
+      color: #ba8058;
+      margin-right: 20px;
+    }
+      main li img {
+        margin-bottom: 15px;
+      }
+      main li span {
+        margin-left: -40px;
+      }
+      main li:last-child {
+        margin-right: 0;
+      }
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058;
+}
+
+.logo {
+  width: 140px;
+  height: 120px;
+}
+
+.logo-headline {
+  color: #EAAA7F;
+}
+
+.corgis li svg,
+.corgis li img {
+  width: 170px;
+  height: 170px;
+}
+
+.corgis .rd-st0 {
+  fill: #EAAA7F;
+}
+
+.corgis .fw-st0 {
+  fill: #844B24;
+}
+
+.corgis .sb-st0 {
+  fill: #BA8058;
+}
+
+.corgis .bt-st0 {
+  fill: #844B24;
+}
+
+.corgis .bt-st1 {
+  fill: #BA8058;
+}
+
+@media (max-width: 425px) {
+  .logo-text {
+    display: none;
+  }
+}
+
+@media (min-width: 425px) {
+  .logo-headline {
+    display: none;
+  }
+}
